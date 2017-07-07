@@ -18,23 +18,23 @@ Used for create familiy of objects with separation of the creation logic from th
 
 * How:
 * Use cases: 
-- Need for a separate logic for creation of objects
-- Create familiy of related objects in a consistent way
-- Hiding implementation of family objects (specific factories) and hiding client access to specific objects
-- Need for coherence between objects created from the same factory
-- Easy switching between different factories for the client
-- ..
+  - Need for a separate logic for creation of objects
+  - Create familiy of related objects in a consistent way
+  - Hiding implementation of family objects (specific factories) and hiding client access to specific objects
+  - Need for coherence between objects created from the same factory
+  - Easy switching between different factories for the client
+  - ..
 
 ### Factory Method
 Used when you need to create (single) objects hiding creation logic and let subclasses choose the implementation
 
 * How:
 * Use cases:  
-- Need for a separate logic for creation of objects (Separation of concerns principle)
-- Need for hiding creation logic and creation resources
-- Centralize where we are creating objects
-- Less duplicated code
-- ..
+  - Need for a separate logic for creation of objects (Separation of concerns principle)
+  - Need for hiding creation logic and creation resources
+  - Centralize where we are creating objects
+  - Less duplicated code
+  - ..
 
 
 ## License
