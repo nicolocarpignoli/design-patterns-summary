@@ -7,11 +7,11 @@ Used when you need to connect two different interfaces without modifying them
 
 * How:
 * Use cases: 
-- Integrating legacy code
-- Integrating libraries (e.g. when there's no chance to modify source code)
-- You want to create a base interface to connect interfaces you don't know yet
-- You want to hide specific method signatures and expose simple methods
-- ..
+  - Integrating legacy code
+  - Integrating libraries (e.g. when there's no chance to modify source code)
+  - You want to create a base interface to connect interfaces you don't know yet
+  - You want to hide specific method signatures and expose simple methods
+  - ..
 
 ### Abstract Factory
 Used for create familiy of objects with separation of the creation logic from the rest of the code, withouth specifying concrete implementation of objects
