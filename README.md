@@ -32,7 +32,7 @@ Used when you need to create (single) objects hiding creation logic and let subc
   - ..
   
 ### Singleton
-Used for having a single instance of a specified object in a software system
+Used for having a single instance of a specific object in a software system
 
 * Use cases:  
   - Need of a single instance for coherence and avoid conflicts about behaviour and object state
