@@ -38,14 +38,6 @@ Used for having a single instance of a specified object in a software system
   - Need of a single instance for coherence and avoid conflicts about behaviour and object state
   - Need of a single/central object used by a large set of other instances (a Logger for example); in these cases it can avoid a significant dependecy injection effort
   
-### Singleton
-Used for having a single instance of a specified object in a software system
-
-* Use cases:  
-  - Need of a single instance for coherence and avoid conflicts about behaviour and object state
-  - Need of a single/central object used by a large set of other instances (a Logger for example); in these cases it can avoid a significant dependecy injection effort
-  
-  
 
 
 ## License
