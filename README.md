@@ -38,6 +38,46 @@ Used for having a single instance of a specific object in a software system
   - Need of a single instance for coherence and avoid conflicts about behaviour and object state
   - Need of a single/central object used by a large set of other instances (a Logger for example); in these cases it can avoid a significant dependecy injection effort
   
+### Bridge
+Decoupling an interface inheritance from implementation inheritance
+
+* Use cases:  
+  - Need of a run-time implementation binding
+  - Separate development of interfaces from implementations
+  - Need of sharing an implementation among multiple objects
+  
+ ### Decorator
+Attach additional functionalities to objects at run-time (dynamically) with wrappers
+
+* Use cases:  
+  - Need of additional functionalities dynamically. Subclassing is static so is not an option
+  - Need recursive additional functionalities
+  
+### Proxy
+Provide a level of indirection between two objects
+
+* Use cases:  
+  - There is a hungry-resources objects that needs to be access-controlled. Need of an additional layer to control and manage         better such object
+  - Instantiate such object only if client actually needs it
+  - Protect the object from unnecessary complexity
+  - ...
+  
+### Repository
+Provide a level of indirection between logic and access to data
+
+* Use cases:  
+  - Need of separation of concerns between the logic layer and the data access layer
+  - An additional layer lead to a better re-use of logic layer with different data(bases)
+  - An additional layer provides space for logging, security management and other functionalities used from all the different data access layers
+
+### Data Transfer Object (DTO)
+Provide a model of data for a better usage from the repository side
+
+* Use cases:  
+  - Need of elaborate data with an higher level model, different from the database's one
+  - Need of compute some logic/aggregation/filtering from data raw model
+  
+  
 WIP
 
 ## License
