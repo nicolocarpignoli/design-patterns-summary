@@ -98,6 +98,23 @@ Used when it is required a way to restore an object state
   - Separation of concern: need of a specific separate component that handle the memorization of the state and the restore action 
   - Useful in every situation it is required a restoration of a state, such as an 'Undo' operation
 
+### Observer 
+A fundamental pattern used for manage one-to-many communication. The architecture is structured in a way that requires that every observer is registered to an object 'to observe', on each - or specific - state changes. When a change occurs every observer gets the information with callback functions.
+
+* Use cases:  
+  - Separation of concerns between object to observe and observers. The one-to-many communication leds to hard decoupling betewwn such actors.
+- It is possible to manage different behaviour: every observer can specify which property to observe and how to respond to the eventual changes
+- It is a fundamental way to handle event communication. Callbacks make the communication asynchronous, so each observer can continue with its flow
+
+### MVC Pattern 
+Another fundamental pattern that means Model View Controller. Its main goal is to provide separation of concerns between components of a system. The system is divided in three main macro-components: a model, that represent the data and the way we have modeled reality in our system; a controller, where the logic can drive model information to the view, treating them and elaborating them first. The view part has the only responsability of visualizing the data provided by the controller.
+
+* Use cases:  
+  - Separation of concerns
+  - Good way to organize projects that have a 'view' part that it's only suited for visualizing data
+  - The component separation led to a better manutebility, testing, scalability and modularity of code
+
+
 WIP
 
 ## License
