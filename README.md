@@ -16,7 +16,7 @@ Used for create familiy of objects with separation of the creation logic from th
 
 * Use cases: 
   - Need for a separate logic for creation of objects
-  - Create familiy of related objects in a consistent way
+  - Create families of related objects in a consistent way
   - Hiding implementation of family objects (specific factories) and hiding client access to specific objects
   - Need for coherence between objects created from the same factory
   - Easy switching between different factories for the client
@@ -111,7 +111,7 @@ Another fundamental pattern that means Model View Controller. Its main goal is t
 
 * Use cases:  
   - Separation of concerns
-  - Good way to organize projects that have a 'view' part that it's only suited for visualizing data
+  - Good way to organize projects that have a 'view' part that it's only suited for visualizing data (e.g. for web applications or applications with a UI)
   - The component separation led to a better manutebility, testing, scalability and modularity of code
 
 
