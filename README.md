@@ -77,7 +77,27 @@ Provide a model of data for a better usage from the repository side
   - Need of elaborate data with an higher level model, different from the database's one
   - Need of compute some logic/aggregation/filtering from data raw model
   
+### Chain of Responsability
+Provide a decoupled way to describe objects that manage a request-response behaviour. Each object can handle different requests: if one cannot handle a request it drives the responsability to another object
+
+* Use cases:  
+  - Need of handling a request with the best implementation available
+  - Need of handling a new request at runtime with possible scenarios such as statically unknown request type or a runtime change of the available object for handle a specific request
   
+  
+### Iterator
+Provide a standard way to iterate through different object's collections 
+
+* Use cases:  
+  - Need of standard behaviour for a sequential access through different object's collections. The idea is to treat the simple iteration action with a behaviour that is not related to the type of objects of a collection
+
+### Memento
+Used when it is required a way to restore an object state
+
+* Use cases:  
+  - Separation of concern: need of a specific separate component that handle the memorization of the state and the restore action 
+  - Useful in every situation it is required a restoration of a state, such as an 'Undo' operation
+
 WIP
 
 ## License
