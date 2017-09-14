@@ -2,6 +2,13 @@
 
 ## A summary of most used Gang of Four's Design Pattern and more
 
+### This is a design pattern summary made by me. Its aim is to provide a quick reference for the most used design patterns. You can quickly see what every pattern is about and the most important use cases selected by me. 
+### When you have found one or more pattern that suited well for you on solving some of your problems, you can go deep in tech with the implementation examples. Some interesting (free) web references for the implementations:
+
+https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
+https://sourcemaking.com/design_patterns
+
+
 ### Adapter
 Used when you need to connect two different interfaces without modifying them
 
