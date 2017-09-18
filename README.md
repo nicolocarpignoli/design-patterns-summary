@@ -122,8 +122,23 @@ Another fundamental pattern that means Model View Controller. Its main goal is t
   - Good way to organize projects that have a 'view' part that it's only suited for visualizing data (e.g. for web applications or applications with a UI)
   - The component separation led to a better manutebility, testing, scalability and modularity of code
 
+### Visitor 
+Similar to Iterator pattern, it provides a common interface that changes the executing algorithm for a specific object
 
-WIP
+* Use cases:  
+  - Specify the execution algorithm of an object at run-time
+  - Separate the executing algorithm from the specific object business logic
+  - Need of a standard interface for different objects that handle in the same way - but with different details - the execution action.
+
+### Strategy 
+Similar Visitor pattern, it provides a class behaviour that changes accordingly to the specific object.
+
+* Use cases:  
+  - Specify the behaviour of an object at run-time
+  - Separate the specification of behaviour from the object business logic
+  - Need to implement different behaviours for similar objects through a common interface
+  - Adding additional to behaviour to objects at run-time
+
 
 ## License
 This project is released under MIT license as you can check in LICENSE.md file.
