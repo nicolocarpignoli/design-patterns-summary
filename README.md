@@ -1,6 +1,6 @@
 # design-patterns-summary
 
-## A summary of most used Gang of Four's Design Pattern and more
+## A summary of most used Gang of Four's Design Patterns and more
 
 This is a design pattern summary made by me. Its aim is to provide a quick reference for the most used design patterns. You can quickly see what every pattern is about and the most important use cases selected by me. 
 
