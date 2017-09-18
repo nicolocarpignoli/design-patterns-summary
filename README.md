@@ -4,7 +4,7 @@
 
 This is a design pattern summary made by me. Its aim is to provide a quick reference for the most used design patterns. You can quickly see what every pattern is about and the most important use cases selected by me. 
 
-When you have found one or more pattern that suited well for you on solving some of your problems, you can go deep in tech with the implementation examples. Some interesting (free) web references for the implementations:
+When you have found one or more pattern that suited well for you on solving a problem, you can go deep in tech with the implementation examples. Here there are some interesting (free) web references for the implementations:
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
 * https://sourcemaking.com/design_patterns
@@ -92,7 +92,6 @@ Provide a decoupled way to describe objects that manage a request-response behav
   - Need of handling a request with the best implementation available
   - Need of handling a new request at runtime with possible scenarios such as statically unknown request type or a runtime change of the available object for handle a specific request
   
-  
 ### Iterator
 Provide a standard way to iterate through different object's collections 
 
@@ -131,7 +130,7 @@ Similar to Iterator pattern, it provides a common interface that changes the exe
   - Need of a standard interface for different objects that handle in the same way - but with different details - the execution action.
 
 ### Strategy 
-Similar Visitor pattern, it provides a class behaviour that changes accordingly to the specific object.
+Similar to Visitor pattern, it provides a class behaviour that changes accordingly to the specific object.
 
 * Use cases:  
   - Specify the behaviour of an object at run-time
