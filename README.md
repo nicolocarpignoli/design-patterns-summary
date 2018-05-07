@@ -4,7 +4,7 @@
 
 This is a design pattern summary made by me. Its aim is to provide a quick reference for the most used design patterns. You can quickly see what every pattern is about and the most important use cases selected by me. 
 
-When you have found one or more pattern that suited well for you on solving a problem, you can go deep in tech with the implementation examples. Here there are some interesting (free) web references for the implementations:
+When you have found one or more pattern that suited well on solving a problem, you can go deeper in technical details with implementation examples. Here there are some interesting (free) web references for the implementations:
 
 * https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
 * https://sourcemaking.com/design_patterns
@@ -23,19 +23,19 @@ Used when you need to connect two different interfaces without modifying them
 Used for create familiy of objects with separation of the creation logic from the rest of the code, withouth specifying concrete implementation of objects
 
 * Use cases: 
-  - Need for a separate logic for creation of objects
+  - Need for a separate logic for objects creation
   - Create families of related objects in a consistent way
-  - Hiding implementation of family objects (specific factories) and hiding client access to specific objects
+  - Hiding implementation of family objects (specific factories) and hiding client access to objects
   - Need for coherence between objects created from the same factory
-  - Easy switching between different factories for the client
+  - Easy switch between different factories for the client
 
 ### Factory Method
-Used when you need to create (single) objects hiding creation logic and let subclasses choose the implementation
+Used when you need to create (single) objects while hiding creation logic and let the subclasses choose the implementation
 
 * Use cases:  
-  - Need for a separate logic for creation of objects (Separation of concerns principle)
+  - Need for a separate logic for creation of objects ("Separation of Concerns" principle)
   - Need for hiding creation logic and creation resources
-  - Centralize where we are creating objects
+  - Centralize creation of objects
   - Less duplicated code
   - ..
   
@@ -43,8 +43,8 @@ Used when you need to create (single) objects hiding creation logic and let subc
 Used for having a single instance of a specific object in a software system
 
 * Use cases:  
-  - Need of a single instance for coherence and avoid conflicts about behaviour and object state
-  - Need of a single/central object used by a large set of other instances (a Logger for example); in these cases it can avoid a significant dependecy injection effort
+  - Need of a single instance for coherence and avoid conflicts in behaviour and in object state
+  - Need of a single/central object used by a large set of other instances (a Logger for example); in those cases it can avoid a significant dependecy injection effort
   
 ### Bridge
 Decoupling an interface inheritance from implementation inheritance
@@ -52,7 +52,7 @@ Decoupling an interface inheritance from implementation inheritance
 * Use cases:  
   - Need of a run-time implementation binding
   - Separate development of interfaces from implementations
-  - Need of sharing an implementation among multiple objects
+  - Need to share an implementation among multiple objects
   
  ### Decorator
 Attach additional functionalities to objects at run-time (dynamically) with wrappers
